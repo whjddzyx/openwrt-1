@@ -349,7 +349,7 @@ ramips_setup_interfaces()
 		;;
 	hc5962)
 		ucidef_add_switch "switch0" \
-			"1:lan" "2:lan" "3:lan" "4:wan" "6@eth0"
+			"0:lan" "1:lan" "2:lan" "3:lan" "4:wan" "6@eth0"
 		;;
 	iodata,wn-ac1167gr|\
 	iodata,wn-ac733gr3)
