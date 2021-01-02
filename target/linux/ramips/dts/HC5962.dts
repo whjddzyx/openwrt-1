@@ -12,8 +12,8 @@
 	aliases {
 		led-boot = &led_system;
 		led-failsafe = &led_system;
-		led-running = &led_status;
-		led-upgrade = &led_status;
+		led-running = &led_system;
+		led-upgrade = &led_system;
 	};
 
 	memory@0 {
@@ -35,7 +35,7 @@
 
 		led_system: system {
 			label = "hc5962:red:system";
-			gpios = <&gpio0 7 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 3 GPIO_ACTIVE_LOW>;
 			panic-indicator;
 		};
 	};
