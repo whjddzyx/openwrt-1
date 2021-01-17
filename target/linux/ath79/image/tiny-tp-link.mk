@@ -52,7 +52,7 @@ endef
 TARGET_DEVICES += tplink_tl-mr3420-v1
 
 define Device/tplink_tl-mr3420-v2
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-16mlzma)
   ATH_SOC := ar9341
   DEVICE_TITLE := TP-Link TL-MR3420 v2
   TPLINK_HWID := 0x34200002
